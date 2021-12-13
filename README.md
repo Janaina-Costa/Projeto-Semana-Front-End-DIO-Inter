@@ -1,36 +1,20 @@
-- Requisitos e ambiente 
 
-- Visual Studio Code
-  Extensões:
-- Insomnia ou Postman
+Projeto: Semana Front-End Dio-Inter.
+<br>Objetivo: Criar uma aplicação de transação bancária - PIX, na qual as seguintes funções são executadas pelo cliente:
+<br>:heavy_check_mark: Login no app;
+<br>:heavy_check_mark: Novo Cadastro no app;
+<br>:heavy_check_mark: Pagamento para terceiros através da chave PIX;
+<br>:heavy_check_mark: Recebimento de PIX de terceiros ;
+<br>:heavy_check_mark: Consulta ao extrato da conta
 
-
----
-Dependencias nescessárias
-
-Express
-typescript -D
-ts-node -D 
-@types/express -D
-@types/node -D
-nodemon -D
-
-
-Criando setup Ininical - Referencias.
-https://dev.to/melquisedecfelipe/configurando-eslint-no-node-com-express-e-typescript-58p9
+Primeira etapa:  implementação do Backend da aplicação. 
+<br>Foi um desafio intenso e um aprendizado sem igual.
+<br><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width='80px' />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width='80px'/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width='80px'/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" width='80px'/>
 
 
 
-- Recursos nescessários na api
 
 
-- Usuário
- [ ] Cadastrar novo usuário
- [ ] Efeturar login e retornar token de acesso
-
-- PIX
- [ ] Efetuar solicitação de PIX
- [ ] Receber PIX
- 
- Regras: 
-  - quando receber um pix, salvar na tabela de transação
